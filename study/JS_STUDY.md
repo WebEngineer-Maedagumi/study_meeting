@@ -1,4 +1,4 @@
-# ~JavaScriptと仲良くなろうvol.1~
+# JavaScriptと仲良くなろうvol.1
 
 ## 環境構築
 
