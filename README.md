@@ -4,7 +4,7 @@
 
 [勉強会のスライドはこちら](https://docs.google.com/presentation/d/14YtxgEnmIwaAHE4lTqlvMDvOyD32YQOFqBA1uppTkn4/edit?usp=sharing)
 
-[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/tree/main)
+[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/blob/main/study/GIT_STUDY.md)
 
 ### No.2 JS(javascript)の環境構築〜Hello Worldまで
 
