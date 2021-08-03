@@ -10,4 +10,4 @@
 
 [勉強会のスライドはこちら](https://docs.google.com/presentation/d/18JJy-Jkc0IqQi3SuAbnJx62MRU2wffrVehbYKtAEu8I/edit?usp=sharing)
 
-[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/blob/js-study/study/JS_STUDY.md)
+[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/blob/main/study/JS_STUDY.md)
