@@ -2,7 +2,6 @@
 
 ## 環境構築
 
-
 1. Home brewがインストールされているかの確認
 
 `brew --version`
@@ -28,63 +27,26 @@
 `nodebrew use v14.17.4`
 
 7. nodeのパスを通す  
-`echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile'`
+   `echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile'`
 
-8. ターミナルの再起動  
+8. ターミナルの再起動
 
 
-9. nodeとnpmのバージョン確認  
+9. nodeとnpmのバージョン確認
 
 `node -v`  
 `npm -v`
 
-## 変数、定数について
-
-`const` 定数を宣言する際に使う。値の再代入は不可。  
-
-`let` 変数宣言時に使用する。値の再代入は可能。
-
-`const(let) N = 1`  
-
-上記の場合、定数(変数)Nに1を代入しているためNの値は１となります。
-
-## 演算子について
-
-足し算 `+`  
-
-引き算 `-`
-
-掛け算 `*`  
-
-割り算 `/`
-
-剰余演算 `%`(あまりを求める時に使用)
-
-### console.logについて
-
-javaScriptのデバッグに使う入出力ウィンドウ  
-
-例`console.log("Hello World")`
-
-### htmlファイルのテンプレート
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>study meeting2</title>
-    </head>
-    <body>
-    
-    </body>
-</html>
-```
+<br/>
+<br/>
 
 ### jsファイルを作成
+
 ```javascript
-console.log("Hello World")
+console.log ( "Hello World" )
 ```
+
+<br/>
 
 ### ターミナルでjsファイルを実行する
 
@@ -92,6 +54,68 @@ console.log("Hello World")
 node index.js(ファイル名)
 ```
 
+### console.logについて
+
+javaScriptのデバッグに使う入出力ウィンドウ
+
+例`console.log("Hello World")`
+
+<br/>
+
+## 変数、定数について
+
+`const` 定数を宣言する際に使う。値の再代入は不可。
+
+`let` 変数宣言時に使用する。値の再代入は可能。
+
+`const(let) N = 1`
+
+上記の場合、定数(変数)Nに1を代入しているためNの値は１となります。
+
+定数  
+`const sample1 = "hello world"`
+
+変数  
+`let sample2 = "hello JavaScript"`
+
+変数、定数を使う  
+`console.log(sample1)`
+
+<br/>
+
+## 演算子について
+
+足し算 `+`
+
+引き算 `-`
+
+掛け算 `*`
+
+割り算 `/`
+
+剰余演算 `%`(あまりを求める時に使用)
+
+例`console.log(3 + 4)`
+
+<br/>
+<br/>
+
+### htmlファイルのテンプレート
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>study meeting2</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+<br/>
 
 ### `index.html`でjsファイルを呼び出す(index.js)
 
@@ -101,11 +125,12 @@ node index.js(ファイル名)
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>study meeting2</title>
+  <meta charset="UTF-8">
+  <title>study meeting2</title>
 </head>
 <body>
-    <script src="index.js"></script>//scriptタグを追加
+<script src="index.js"></script>
+//scriptタグを追加
 </body>
 </html>
 ```
@@ -114,7 +139,7 @@ node index.js(ファイル名)
 
 ブラウザで [このような](https://i.gyazo.com/b75a365f6b4413d8cb1965930b0f7dd3.png) 表示になっていれば正常に読み込めています。
 
-
+<br/>
 
 ## ブラウザにHello Worldを表示
 
@@ -122,35 +147,38 @@ node index.js(ファイル名)
 2. `bodyタグ`に`id`をつけます。
 3. `id`は任意で大丈夫です。ここでは`hello`としています。
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>study meeting2</title>
+  <meta charset="UTF-8">
+  <title>study meeting2</title>
 </head>
 <body>
-    <div id="hello"></div>//ここを追加
-    <script src="index.js"></script>
+<div id="hello"></div>
+//ここを追加
+<script src="index.js"></script>
 </body>
 </html>
 ```
 
-4. `index.js`を以下のように変更(関数を追加します。)
+<br/>
+
+4. `index.js`を以下のように変更(関数を追加します。コピペでOKです。)
 
 ```javascript
-function helloWorld() {
-    const hello =　document.getElementById("hello")//htmlで取得したidを取得
-    hello.innerText = "Hello World"
+function helloWorld () {
+  const hello = document.getElementById ( "hello" )//htmlで取得したidを取得
+  hello.innerText = "Hello World"
 }
 ```
+
+<br/>
 
 5. `index.js`に以下を追加(関数を実行します。)
 
 ```javascript
-helloWorld()
+helloWorld ()
 ```
-6. ブラウザでこのような表示になっていれば正常に関数が実行されています。
 
-[ブラウザ表示](https://i.gyazo.com/35b4fc83de0ff111fa4369c8d297df1f.png)
+6. ブラウザで[このような](https://i.gyazo.com/35b4fc83de0ff111fa4369c8d297df1f.png) 表示になっていれば正常に関数が実行されています。
