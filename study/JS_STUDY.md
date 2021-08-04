@@ -14,29 +14,29 @@
 
 `echo 'export PATH="/opt/homebrew/bin:$PATH"' >> $HOME/.zshrc`
 
-3. nodebrewのインストール
+4. nodebrewのインストール
 
 `brew install nodebrew`
 
-4. nodebrewの安定版のインストール
+5. nodebrewの安定版のインストール
 
 `nodebrew install stable`
 
-5. nodebrewのバージョン一覧を確認
+6. nodebrewのバージョン一覧を確認
 
 `nodebrew ls`
 
-6. インストールしたバージョンを指定して切り替える
+7. インストールしたバージョンを指定して切り替える
 
 `nodebrew use v14.17.4`
 
-7. nodeのパスを通す  
+8. nodeのパスを通す  
    `echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile'`
 
-8. ターミナルの再起動
+9. ターミナルの再起動
 
 
-9. nodeとnpmのバージョン確認
+10. nodeとnpmのバージョン確認
 
 `node -v`  
 `npm -v`
