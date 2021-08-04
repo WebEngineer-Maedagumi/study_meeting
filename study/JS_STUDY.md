@@ -10,6 +10,10 @@
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+3. homebrewのパスを通す  
+
+`echo 'export PATH="/opt/homebrew/bin:$PATH"' >> $HOME/.zshrc`
+
 3. nodebrewのインストール
 
 `brew install nodebrew`
