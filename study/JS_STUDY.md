@@ -31,7 +31,7 @@
 `nodebrew use v14.17.4`
 
 8. nodeのパスを通す  
-   `echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile'`
+   `echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zprofile`
 
 9. ターミナルの再起動
 
