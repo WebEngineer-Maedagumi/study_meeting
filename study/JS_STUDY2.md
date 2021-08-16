@@ -12,6 +12,7 @@
 <body>
   <div id="hello"></div>
   <div id="text1"></div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -57,7 +58,9 @@ helloWorld()
 hello.innerText = "Hello World"
 ```
 
-6. 問題1 ブラウザに私の名前は〇〇ですと表示させる関数を作成してください。
+6. 問題1 document.getElementByIdでindex.htmlのid="text1"を取得し、
+<br/>
+ ブラウザに私の名前は〇〇ですと表示させる関数を作成してください。
 
 <br/>
 

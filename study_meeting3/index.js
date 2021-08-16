@@ -9,8 +9,9 @@ helloWorld()
 
 function selfIntroduction(name, id, age){
   const introduction = document.getElementById(id)
-  introduction.innerText = "私の名前は" + name + "です" + age + "歳です"
+  introduction.innerText = "私の名前は" + name + "です。" + age + "歳です。"
 }
 
 //関数の実行
 selfIntroduction("さとし","text1",15)
+selfIntroduction("だいすけ","text2",20)
