@@ -14,7 +14,7 @@
 
 ### No.3 JS(javascript)の関数について(8/18 予定)
 
-[勉強会のスライドはこちら](https://docs.google.com/presentation/d/14IAZqw8LDp0_rOrI3x7GIePKTL2i66hQi3I-kbUy2VY/edit#slide=id.ge9a0297920_0_5)
+[勉強会のスライドはこちら](https://docs.google.com/presentation/d/14IAZqw8LDp0_rOrI3x7GIePKTL2i66hQi3I-kbUy2VY/edit?usp=sharing)
 
 [リポジトリはこちら]()
 
