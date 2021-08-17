@@ -19,87 +19,64 @@
 
 <br/>
 
-1. `index.js`を以下のように変更(関数を追加します。コピペでOKです。)
+1. 関数の書き方①
 
 ```javascript
-function helloWorld () {
-  
-}
-```
-2. 先程の関数に以下を追記してください(コピペでOKです。)
-```javascript 
-const hello = document.getElementById ( "hello" )
-```
-<br/>
-
-3. console.log(hello)を追記してください。
-
-```javascript 
-console.log(hello)
-```
-
-<br/>
-
-4. 関数を実行しましょう
-
-```javascript 
-helloWorld()
-```
-
-<br/>
-
-5. ブラウザでlogを確認してみてください。
-
-<br/>
-
-5. 関数に hello.innerText = "Hello World"　を追記してください
-
-```javascript 
-hello.innerText = "Hello World"
-```
-
-6. 問題1 document.getElementByIdでindex.htmlのid="text1"を取得し、
-<br/>
- ブラウザに私の名前は〇〇ですと表示させる関数を作成してください。
-
-<br/>
-
-関数名は selfIntroductionを使ってください。
-
-<br/>
-
-7. 引数の使い方
-
-```javascript 
-function selfIntroduction(name) {
-  const introduction = document.getElementById("text1")
-  introduction.innerText = "私の名前は" + name + "です" 
+//
+function sample () {
+  //関数の処理
 }
 ```
 <br/>
 
+2. 関数の書き方②
+
 ```javascript
-selfIntroduction("さとし")
+//アロー関数
+const sample = () => {
+  //関数の処理
+}
+
+```
+<br/>
+
+3. 関数の実行
+
+```javascript
+//関数名()で作成した関数を使用できます。
+sample()
 ```
 
 <br/>
 
-8. idも引数に渡してみよう
-
+4. 簡単な関数を作ってみよう！
 ```javascript 
-function selfIntroduction(name,id) {
-  const introduction = document.getElementById(id)
-  introduction.innerText = "私の名前は" + name + "です" 
+//足し算をする関数
+const add = () => {
+  const sum = 2 + 3
+  console.log(sum)
 }
 ```
 <br/>
 
-```javascript
-selfIntroduction("さとし","text1")
+4. 引数＆戻り値がある関数の書き方
+
+```javascript 
+const add = (num1,num2) => {
+  const sum = num1 + num2
+  return sum
+}
+```
+<br/>
+
+5. 関数の実行
+
+```javascript 
+//関数の実行
+add(2,3)
 ```
 
 <br/>
 
-9. 問題2　関数に第3引数ageを渡してブラウザに　私の名前は〇〇です。〇〇歳ですと表示させてください.
-
+6. 問題 引き算をする関数を作成し、ログに計算結果を表示してください。関数名はsubtraction、第1実引数に３を第2実引数に4を指定してください。
 
