@@ -10,8 +10,6 @@
   <title>study meeting3</title>
 </head>
 <body>
-  <div id="hello"></div>
-  <div id="text1"></div>
   <script src="index.js"></script>
 </body>
 </html>
