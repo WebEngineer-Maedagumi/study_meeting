@@ -16,7 +16,7 @@
 
 [勉強会のスライドはこちら](https://docs.google.com/presentation/d/14IAZqw8LDp0_rOrI3x7GIePKTL2i66hQi3I-kbUy2VY/edit?usp=sharing)
 
-[リポジトリはこちら](https://docs.google.com/presentation/d/14IAZqw8LDp0_rOrI3x7GIePKTL2i66hQi3I-kbUy2VY/edit?usp=sharing)
+[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/pull/6/files)
 
 ### No.4 JS(javascript)の条件分岐について(8/25 予定)
 
