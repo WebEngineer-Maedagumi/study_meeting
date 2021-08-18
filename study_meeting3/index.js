@@ -1,17 +1,14 @@
-//前回の復習
-function helloWorld() {
-  const hello = document.getElementById ( "hello" )//htmlで取得したidを取得
-  hello.innerText = "Hello World"
+//足し算をする関数
+const add = () => {
+  console.log(2 + 3);
 }
 
 //関数の実行
-helloWorld()
+add()
 
-function selfIntroduction(name, id, age){
-  const introduction = document.getElementById(id)
-  introduction.innerText = "私の名前は" + name + "です。" + age + "歳です。"
+//引数＆戻り値がある場合
+const addition = (num1,num2) => {
+  return num1 + num2
 }
 
-//関数の実行
-selfIntroduction("さとし","text1",15)
-selfIntroduction("だいすけ","text2",20)
+console.log(addition(2,3));
