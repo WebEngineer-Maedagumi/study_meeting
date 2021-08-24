@@ -20,7 +20,7 @@
 
 ### No.4 JS(javascript)の条件分岐について(8/25 予定)
 
-[勉強会のスライドはこちら]()
+[勉強会のスライドはこちら](https://docs.google.com/presentation/d/1B23-MfROiuuUCqD5QMvBNxOz0rTTxQhCCFCQU2M1S0E/edit?usp=sharing)
 
 [リポジトリはこちら]()
 
