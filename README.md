@@ -22,7 +22,7 @@
 
 [勉強会のスライドはこちら](https://docs.google.com/presentation/d/1B23-MfROiuuUCqD5QMvBNxOz0rTTxQhCCFCQU2M1S0E/edit?usp=sharing)
 
-[リポジトリはこちら]()
+[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/blob/main/study/JS_STUDY3.md)
 
 ### No.5 JS(javascript)の配列、オブジェクトについて(9/1 予定)
 
