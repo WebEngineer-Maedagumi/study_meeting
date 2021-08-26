@@ -9,7 +9,10 @@
 #### 1. 宣言し方
 
 定数・変数の名前を上げて、オブジェクトの値を波括弧で囲む
-`const object = {}`
+
+```
+const object = {}
+```
 
 #### 2. 例のオブジェクト
 
@@ -38,6 +41,7 @@ const profile = {
 参照方法: 2 種類の方法があります
 
 - オブジェクト名.プロパティ名
+
   先の作っておいた`profile` object のデータをアクセスしてみましょう
 
   例：
@@ -48,17 +52,22 @@ const profile = {
   例：
   `console.log(profile['name']) `
 
-`console.log`を実行したら 2 つの場合とも同じように検証画面で
+  `console.log`を実行したら 2 つの場合とも同じように検証画面で
 
-> 'Taro Yamada'
+  > 'Taro Yamada'
 
-の結果が出てきます。
+  の結果が出てきます。
 
 - オブジェクト名['プロパティ名'] を使う場合
 
   例:
 
-  `const object = {1: 'Task 1', 2: 'Task 2'}`
+  ```
+  const object = {
+    1: 'Task 1',
+    2: 'Task 2'
+  }
+  ```
 
   この場合なら
   `console.log(object.1)`
@@ -69,7 +78,10 @@ const profile = {
 
 続いて、`console.log(profile.name)`の下に下記のコードを実行しましょう
 
-`profile.name = '太郎山田'; console.log(profile.name)`
+```
+profile.name = '太郎山田';
+console.log(profile.name)
+```
 
 結果：
 
@@ -92,11 +104,17 @@ console.log(profile);`
 
 下記の関数を作りましょう
 
-`const introduce = (person) => { console.log('私は${person.name}'と申します。${person.age}歳です。 }`
+```
+const introduce = (person) => {
+  console.log('私は${person.name}'と申します。${person.age}歳です。)
+  }
+```
 
 そして、作ったオブジェクトを関数の引数として渡して、実行してみましょう
 
-`introduce(profile)`
+```
+introduce(profile)
+```
 
 結果：
 
@@ -108,33 +126,46 @@ console.log(profile);`
 
 定数・変数の名前を上げて、配列の値を角括弧で囲む
 
-`const array = []`
+```
+  const array = []
+```
 
 または下記のように宣言して、配列の値を丸括弧に入れる
 
-`const array = new Array()`
+```
+const array = new Array()
+```
 
 #### 2. 例の配列
 
-`const todolist = ['task 1', 'task 2', 'task 3']`
+```
+const todolist = ['task 1', 'task 2', 'task 3']
+```
 
 #### 3. 配列の参照しかた・データアクセス
 
 - 配列名[添字]
+
   (配列の添字(index)は０からはじまります。つまり、先頭要素の添字は０です)
 
-`console.log(todolist[0])`
+  ```
+  console.log(todolist[0])
+  ```
 
-上記のコードを実行したら検証画面に
+  上記のコードを実行したら検証画面に
 
-> 'task 1'
+  > 'task 1'
 
-の結果が出てきます。
+  の結果が出てきます。
 
 #### 4. 配列の要素の値を再代入
 
 下記のコードを書きましょう
-`todolist[0] = 'task'`
+
+```
+todolist[0] = 'task'
+```
+
 そして, `console.log(todolist[0])`を実行したら
 
 > 'task'
@@ -172,11 +203,18 @@ console.log(profile);`
   - map: 各要素 1 つずつに処理を実行させることができます。
 
     今の配列：
-    `const todolist = ['task', 'task 2', 'task 3'];`
+
+    ```
+    const todolist = ['task', 'task 2', 'task 3'];
+    ```
 
     メソッドを実行:
 
-    `todolist.map((todo) => { console.log(todo) }`
+    ```
+    todolist.map((todo) => {
+      console.log(todo)
+    }
+    ```
 
     map の中は処理（関数）になります。todo は関数の仮引数になります。
     検証画面に確認すると
@@ -192,15 +230,24 @@ console.log(profile);`
   - filter: 配列内における特定の要素を抽出したい場合、filter メソッドを使います。 各要素の値を参照して、filter の中に囲んだ関数を処理します。
 
     配列：
-    `const numbers = [1,2,3,4,5,6]`
+
+    ```
+    const numbers = [1,2,3,4,5,6]
+    ```
 
     メソッドを実行：
 
-    `const filteredArray = numbers.filter((number) => { number % 2 === 0 }`
+    ```
+    const filteredArray = numbers.filter((number) => {
+       number % 2 === 0
+    }
+    ```
 
     そして、`console.log(filteredArray)`を実行したら
 
-    `[2,4,6]`
+    ```
+    [2,4,6]
+    ```
 
     の結果が出てきます。
 
@@ -208,11 +255,15 @@ console.log(profile);`
 
     今の配列：
 
-    `const todolist = ['task', 'task 2', 'task 3'];`
+    ```
+    const todolist = ['task', 'task 2', 'task 3'];
+    ```
 
     メソッドを実行：
 
-    `todolist.push('task 4')`
+    ```
+    todolist.push('task 4')
+    ```
 
     そして、`console.log(todolist)`を実行したら
 
@@ -224,11 +275,15 @@ console.log(profile);`
 
     今の配列：
 
-    `const todolist = ['task', 'task 2', 'task 3', 'task 4']`
+    ```
+    const todolist = ['task', 'task 2', 'task 3', 'task 4']
+    ```
 
     メソッドを実行：
 
-    `todolist.unshift('new task')`
+    ```
+    todolist.unshift('new task')
+    ```
 
     そして、`console.log(todolist)`を実行したら
 
@@ -237,13 +292,19 @@ console.log(profile);`
   - delete 演算子: 指定した添字の要素を削除できます。
 
     今の配列：
-    `const todolist = ['task', 'task 2', 'task 3', 'task 4']`
+
+    ```
+    const todolist = ['task', 'task 2', 'task 3', 'task 4']
+    ```
 
     例えば、２番目の'task 2'を削除したいなら下記ようなコードを実行します
-    `delete todolist [1];`
+
+    ```
+    delete todolist [1];
+    ```
 
     そして、`console.log(todolist)`を実行すると検証画面に
 
-    `['task',,'task 3', 'task 4']`
+    > ['task',,'task 3', 'task 4']
 
     なります。つまり、 `todolist[1]`の値は`undefined`になりました。
