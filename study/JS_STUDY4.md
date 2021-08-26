@@ -1,10 +1,10 @@
-## オブジェクトと配列について
+# オブジェクトと配列について
 
 ### [概念(スライド)](https://docs.google.com/presentation/d/1y55eC0A4cs233xdIaUqCq0ZApZ6IT2QqIu0amaJVtuc/edit?usp=sharing)
 
 ---
 
-### オブジェクトの使い方
+## オブジェクトの使い方
 
 #### 1. 宣言し方
 
@@ -120,7 +120,7 @@ introduce(profile)
 
 > 私は Taro Yamada と申します。32 歳です。
 
-### 配列の使い方
+## 配列の使い方
 
 #### 1. 宣言し方
 
