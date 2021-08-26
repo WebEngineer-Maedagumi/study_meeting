@@ -78,7 +78,11 @@ const profile = {
 #### 6. オブジェクトにプロパティを追加
 
 下記のコードを追加してみましょう
-`profile.gender = 'male'; console.log(profile);`
+
+```
+profile.gender = 'male';
+console.log(profile);`
+```
 
 結果：
 
