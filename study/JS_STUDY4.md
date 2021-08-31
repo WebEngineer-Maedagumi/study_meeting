@@ -85,7 +85,7 @@ console.log(profile);`
 
 結果：
 
-> {name: '太郎山田’, age: 32, address: '11 street', weight: 64, height: 180, birthday: '1st january 1989', gender: 'male'}
+> {name: '太郎山田’, age: 23, gender: 'male'}
 
 #### 6. 実際関数に使ってみましょう
 
