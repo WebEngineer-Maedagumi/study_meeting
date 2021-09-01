@@ -93,7 +93,7 @@ console.log(profile);`
 
 ```
 const introduce = (person) => {
-  console.log('私は${person.name}'と申します。${person.age}歳です。)
+  console.log(`私は${person.name}と申します。${person.age}歳です。`)
   }
 ```
 
