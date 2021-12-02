@@ -26,7 +26,7 @@
 
 ### No.5 JS(javascript)の配列、オブジェクトについて(9/1 予定)
 
-[勉強会のスライドはこちら]()
+[勉強会のスライドはこちら](https://docs.google.com/presentation/d/1y55eC0A4cs233xdIaUqCq0ZApZ6IT2QqIu0amaJVtuc/edit?usp=sharing)
 
 [リポジトリはこちら]()
 
