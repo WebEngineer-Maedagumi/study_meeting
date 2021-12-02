@@ -28,5 +28,5 @@
 
 [勉強会のスライドはこちら](https://docs.google.com/presentation/d/1y55eC0A4cs233xdIaUqCq0ZApZ6IT2QqIu0amaJVtuc/edit?usp=sharing)
 
-[リポジトリはこちら]()
+[リポジトリはこちら](https://github.com/WebEngineer-Maedagumi/study_meeting/blob/main/study/JS_STUDY4.md)
 
